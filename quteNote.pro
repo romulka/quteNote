@@ -10,3 +10,4 @@ HEADERS += mainwindow.h \
     qutenote.h
 FORMS += mainwindow.ui
 QT += xml
+RESOURCES += qutenote.qrc
