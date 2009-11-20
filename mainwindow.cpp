@@ -7,11 +7,22 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 
     trayIcon = new QSystemTrayIcon(this);
-    trayIcon->setIcon(QIcon(":/images/trash.svg"));
 
+    createActions();
+    createTrayIcon();
+
+    connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
+            this, SLOT(iconActivated(QSystemTrayIcon::ActivationReason)));
+
+    QIcon icon = QIcon(":/images/icon.svg");
+
+    (void) new QShortcut(Qt::ALT + Qt::Key_S, this, SLOT(showHide()));
+
+    trayIcon->setIcon(icon);
     trayIcon->show();
 
-    connect(trayIcon, SIGNAL(showHide()), this, SLOT(showHide()));
+    this->setWindowIcon(icon);
+    setWindowTitle(trUtf8("quteNote"));
 }
 
 void MainWindow::showHide()
@@ -20,6 +31,19 @@ void MainWindow::showHide()
         this->hide();
      else
         this->show();
+}
+
+void MainWindow::iconActivated(QSystemTrayIcon::ActivationReason reason)
+{
+    switch (reason) {
+    case QSystemTrayIcon::Trigger:
+    case QSystemTrayIcon::DoubleClick:
+        this->showHide();
+        break;
+    case QSystemTrayIcon::MiddleClick:
+    default:
+        ;
+    }
 }
 
 void MainWindow::createActions()
@@ -54,4 +78,11 @@ MainWindow::~MainWindow()
 {
     delete this->trayIcon;
     delete this->ui;
+
+    delete this->minimizeAction;
+    delete this->maximizeAction;
+    delete this->restoreAction;
+    delete this->quitAction;
+
+    delete this->trayIconMenu;
 }

@@ -7,6 +7,7 @@
 #include <QShortcut>
 #include "qutenote.h"
 #include <QMenu>
+#include <QMessageBox>
 
 namespace Ui
 {
@@ -23,6 +24,7 @@ public:
 
 private slots:
     void showHide();
+    void iconActivated(QSystemTrayIcon::ActivationReason reason);
 
 private:
     void createActions();
