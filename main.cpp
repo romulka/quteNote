@@ -1,5 +1,6 @@
 #include <QtGui/QApplication>
 #include "mainwindow.h"
+#include <QxtApplication>
 
 int main(int argc, char *argv[])
 {
@@ -10,7 +11,9 @@ int main(int argc, char *argv[])
         return 1;
     }*/
 
-    QApplication a(argc, argv);
+    QxtApplication a(argc, argv);
+
+    //QApplication a(argc, argv);
     //QApplication::setQuitOnLastWindowClosed(false);
 
     MainWindow w;

@@ -1,231 +1,249 @@
 <!DOCTYPE QtCreatorProject>
 <qtcreator>
  <data>
+  <variable>RunConfiguration0-BaseEnvironmentBase</variable>
+  <value type="int">2</value>
+ </data>
+ <data>
   <variable>RunConfiguration0-CommandLineArguments</variable>
-  <valuelist type="QVariantList" />
+  <valuelist type="QVariantList"/>
  </data>
  <data>
   <variable>RunConfiguration0-ProFile</variable>
-  <value type="QString" >quteNote.pro</value>
+  <value type="QString">quteNote.pro</value>
  </data>
  <data>
   <variable>RunConfiguration0-RunConfiguration.name</variable>
-  <value type="QString" >quteNote</value>
+  <value type="QString">quteNote</value>
  </data>
  <data>
   <variable>RunConfiguration0-UseDyldImageSuffix</variable>
-  <value type="bool" >false</value>
+  <value type="bool">false</value>
  </data>
  <data>
   <variable>RunConfiguration0-UseTerminal</variable>
-  <value type="bool" >false</value>
+  <value type="bool">false</value>
  </data>
  <data>
   <variable>RunConfiguration0-UserEnvironmentChanges</variable>
-  <valuelist type="QVariantList" />
+  <valuelist type="QVariantList"/>
  </data>
  <data>
   <variable>RunConfiguration0-UserSetName</variable>
-  <value type="bool" >false</value>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-UserSetWorkingDirectory</variable>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-UserWorkingDirectory</variable>
+  <value type="QString"></value>
  </data>
  <data>
   <variable>RunConfiguration0-type</variable>
-  <value type="QString" >Qt4ProjectManager.Qt4RunConfiguration</value>
+  <value type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
  </data>
  <data>
   <variable>activeRunConfiguration</variable>
-  <value type="int" >0</value>
+  <value type="int">0</value>
  </data>
  <data>
   <variable>activebuildconfiguration</variable>
-  <value type="QString" >Debug</value>
+  <value type="QString">Debug</value>
  </data>
  <data>
   <variable>buildConfiguration-Debug</variable>
-  <valuemap type="QVariantMap" >
-   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
-   <value key="QtVersionId" type="int" >0</value>
-   <value key="addQDumper" type="" ></value>
-   <value key="buildDirectory" type="QString" >/home/roman/Projects/quteNote/quteNote</value>
-   <value key="useShadowBuild" type="bool" >false</value>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
+   <value key="QtVersionId" type="int">0</value>
+   <value key="ToolChain" type="int">0</value>
+   <value key="addQDumper" type=""></value>
+   <value key="buildConfiguration" type="int">2</value>
+   <value key="buildDirectory" type="QString">/home/roman/Projects/quteNote/quteNote</value>
+   <value key="useShadowBuild" type="bool">false</value>
   </valuemap>
  </data>
  <data>
   <variable>buildConfiguration-Release</variable>
-  <valuemap type="QVariantMap" >
-   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
-   <value key="QtVersionId" type="int" >0</value>
-   <value key="addQDumper" type="" ></value>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Release</value>
+   <value key="QtVersionId" type="int">0</value>
+   <value key="addQDumper" type=""></value>
+   <value key="buildConfiguration" type="int">0</value>
   </valuemap>
  </data>
  <data>
   <variable>buildconfiguration-Debug-buildstep0</variable>
-  <valuemap type="QVariantMap" >
-   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
-   <valuelist key="abstractProcess.Environment" type="QVariantList" >
-    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-fqF3Ebj236,guid=38a0db937dbf1af1aa6e59674b04dfaf</value>
-    <value type="QString" >DESKTOP_SESSION=kde</value>
-    <value type="QString" >DESKTOP_STARTUP_ID=</value>
-    <value type="QString" >DISPLAY=:0.0</value>
-    <value type="QString" >DM_CONTROL=/var/run/xdmctl</value>
-    <value type="QString" >GS_LIB=/home/roman/.fonts</value>
-    <value type="QString" >GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/roman/.gtkrc-2.0:/home/roman/.gtkrc-2.0-kde4:/home/roman/.kde/share/config/gtkrc-2.0</value>
-    <value type="QString" >GTK_RC_FILES=/etc/gtk/gtkrc:/home/roman/.gtkrc::/home/roman/.kde/share/config/gtkrc</value>
-    <value type="QString" >HOME=/home/roman</value>
-    <value type="QString" >KDE_FULL_SESSION=true</value>
-    <value type="QString" >KDE_MULTIHEAD=false</value>
-    <value type="QString" >KDE_SESSION_UID=1000</value>
-    <value type="QString" >KDE_SESSION_VERSION=4</value>
-    <value type="QString" >LANG=ru_RU.UTF-8</value>
-    <value type="QString" >LANGUAGE=</value>
-    <value type="QString" >LD_LIBRARY_PATH=/usr/lib/qtcreator:</value>
-    <value type="QString" >LOGNAME=roman</value>
-    <value type="QString" >PATH=/home/roman/builds/libs/qt4sdk/qt/bin:/home/roman/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games</value>
-    <value type="QString" >PWD=/home/roman</value>
-    <value type="QString" >QTDIR=/home/roman/builds/libs/qt4sdk/qt</value>
-    <value type="QString" >QT_PLUGIN_PATH=/home/roman/.kde/lib/kde4/plugins/:/usr/lib/kde4/plugins/</value>
-    <value type="QString" >SESSION_MANAGER=local/roman-desk:@/tmp/.ICE-unix/1780,unix/roman-desk:/tmp/.ICE-unix/1780</value>
-    <value type="QString" >SHELL=/bin/bash</value>
-    <value type="QString" >SHLVL=0</value>
-    <value type="QString" >SSH_AGENT_PID=1691</value>
-    <value type="QString" >SSH_AUTH_SOCK=/tmp/ssh-mwYNnj1654/agent.1654</value>
-    <value type="QString" >USER=roman</value>
-    <value type="QString" >WINDOWPATH=7</value>
-    <value type="QString" >XCURSOR_THEME=oxy-white</value>
-    <value type="QString" >XDG_DATA_DIRS=/usr/share:/usr/share:/usr/local/share</value>
-    <value type="QString" >XDG_SESSION_COOKIE=27b5b4a875b20511299446194ae9fda8-1258610606.895110-1503297530</value>
-    <value type="QString" >XDM_MANAGED=method=classic,auto</value>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-HlrH3PzLeT,guid=6f4b3d38a829e4fe4891eac04b1a119d</value>
+    <value type="QString">DESKTOP_SESSION=kde</value>
+    <value type="QString">DISPLAY=:0.0</value>
+    <value type="QString">DM_CONTROL=/var/run/xdmctl</value>
+    <value type="QString">GS_LIB=/home/roman/.fonts</value>
+    <value type="QString">GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/roman/.gtkrc-2.0:/home/roman/.gtkrc-2.0-kde4:/home/roman/.kde/share/config/gtkrc-2.0</value>
+    <value type="QString">GTK_RC_FILES=/etc/gtk/gtkrc:/home/roman/.gtkrc::/home/roman/.kde/share/config/gtkrc</value>
+    <value type="QString">HOME=/home/roman</value>
+    <value type="QString">KDE_FULL_SESSION=true</value>
+    <value type="QString">KDE_MULTIHEAD=false</value>
+    <value type="QString">KDE_SESSION_UID=1000</value>
+    <value type="QString">KDE_SESSION_VERSION=4</value>
+    <value type="QString">LANG=ru_RU.UTF-8</value>
+    <value type="QString">LANGUAGE=</value>
+    <value type="QString">LD_LIBRARY_PATH=/home/roman/programms/qtcreator-1.3.0/lib/qtcreator:</value>
+    <value type="QString">LOGNAME=roman</value>
+    <value type="QString">PATH=/usr/bin:/home/roman/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games</value>
+    <value type="QString">PWD=/home/roman</value>
+    <value type="QString">QTDIR=/usr/share/qt4</value>
+    <value type="QString">QT_PLUGIN_PATH=/home/roman/.kde/lib/kde4/plugins/:/usr/lib/kde4/plugins/</value>
+    <value type="QString">SESSION_MANAGER=local/roman-desk:@/tmp/.ICE-unix/1423,unix/roman-desk:/tmp/.ICE-unix/1423</value>
+    <value type="QString">SHELL=/bin/bash</value>
+    <value type="QString">SHLVL=0</value>
+    <value type="QString">SSH_AGENT_PID=1331</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/ssh-nGaluy1291/agent.1291</value>
+    <value type="QString">USER=roman</value>
+    <value type="QString">WINDOWPATH=7</value>
+    <value type="QString">XCURSOR_THEME=oxy-white</value>
+    <value type="QString">XDG_DATA_DIRS=/usr/share:/usr/share:/usr/local/share</value>
+    <value type="QString">XDG_SESSION_COOKIE=27b5b4a875b20511299446194ae9fda8-1259999644.758837-666771780</value>
+    <value type="QString">XDM_MANAGED=method=classic,auto</value>
    </valuelist>
-   <valuelist key="abstractProcess.arguments" type="QVariantList" >
-    <value type="QString" >/home/roman/Projects/quteNote/quteNote/quteNote.pro</value>
-    <value type="QString" >-spec</value>
-    <value type="QString" >linux-g++-64</value>
-    <value type="QString" >-r</value>
-    <value type="QString" >CONFIG+=debug</value>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">/home/roman/Projects/quteNote/quteNote/quteNote.pro</value>
+    <value type="QString">-spec</value>
+    <value type="QString">linux-g++</value>
+    <value type="QString">-r</value>
+    <value type="QString">CONFIG+=debug</value>
    </valuelist>
-   <value key="abstractProcess.command" type="QString" >/home/roman/builds/libs/qt4sdk/qt/bin/qmake</value>
-   <value key="abstractProcess.enabled" type="bool" >false</value>
-   <value key="abstractProcess.workingDirectory" type="QString" >/home/roman/Projects/quteNote/quteNote</value>
-   <value key="buildConfiguration" type="int" >2</value>
+   <value key="abstractProcess.command" type="QString">/usr/bin/qmake-qt4</value>
+   <value key="abstractProcess.enabled" type="bool">false</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/home/roman/Projects/quteNote/quteNote</value>
+   <value key="buildConfiguration" type=""></value>
   </valuemap>
  </data>
  <data>
   <variable>buildconfiguration-Debug-buildstep1</variable>
-  <valuemap type="QVariantMap" >
-   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
-   <valuelist key="abstractProcess.Environment" type="QVariantList" >
-    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-fqF3Ebj236,guid=38a0db937dbf1af1aa6e59674b04dfaf</value>
-    <value type="QString" >DESKTOP_SESSION=kde</value>
-    <value type="QString" >DESKTOP_STARTUP_ID=</value>
-    <value type="QString" >DISPLAY=:0.0</value>
-    <value type="QString" >DM_CONTROL=/var/run/xdmctl</value>
-    <value type="QString" >GS_LIB=/home/roman/.fonts</value>
-    <value type="QString" >GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/roman/.gtkrc-2.0:/home/roman/.gtkrc-2.0-kde4:/home/roman/.kde/share/config/gtkrc-2.0</value>
-    <value type="QString" >GTK_RC_FILES=/etc/gtk/gtkrc:/home/roman/.gtkrc::/home/roman/.kde/share/config/gtkrc</value>
-    <value type="QString" >HOME=/home/roman</value>
-    <value type="QString" >KDE_FULL_SESSION=true</value>
-    <value type="QString" >KDE_MULTIHEAD=false</value>
-    <value type="QString" >KDE_SESSION_UID=1000</value>
-    <value type="QString" >KDE_SESSION_VERSION=4</value>
-    <value type="QString" >LANG=ru_RU.UTF-8</value>
-    <value type="QString" >LANGUAGE=</value>
-    <value type="QString" >LD_LIBRARY_PATH=/usr/lib/qtcreator:</value>
-    <value type="QString" >LOGNAME=roman</value>
-    <value type="QString" >PATH=/home/roman/builds/libs/qt4sdk/qt/bin:/home/roman/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games</value>
-    <value type="QString" >PWD=/home/roman</value>
-    <value type="QString" >QTDIR=/home/roman/builds/libs/qt4sdk/qt</value>
-    <value type="QString" >QT_PLUGIN_PATH=/home/roman/.kde/lib/kde4/plugins/:/usr/lib/kde4/plugins/</value>
-    <value type="QString" >SESSION_MANAGER=local/roman-desk:@/tmp/.ICE-unix/1780,unix/roman-desk:/tmp/.ICE-unix/1780</value>
-    <value type="QString" >SHELL=/bin/bash</value>
-    <value type="QString" >SHLVL=0</value>
-    <value type="QString" >SSH_AGENT_PID=1691</value>
-    <value type="QString" >SSH_AUTH_SOCK=/tmp/ssh-mwYNnj1654/agent.1654</value>
-    <value type="QString" >USER=roman</value>
-    <value type="QString" >WINDOWPATH=7</value>
-    <value type="QString" >XCURSOR_THEME=oxy-white</value>
-    <value type="QString" >XDG_DATA_DIRS=/usr/share:/usr/share:/usr/local/share</value>
-    <value type="QString" >XDG_SESSION_COOKIE=27b5b4a875b20511299446194ae9fda8-1258610606.895110-1503297530</value>
-    <value type="QString" >XDM_MANAGED=method=classic,auto</value>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-HlrH3PzLeT,guid=6f4b3d38a829e4fe4891eac04b1a119d</value>
+    <value type="QString">DESKTOP_SESSION=kde</value>
+    <value type="QString">DISPLAY=:0.0</value>
+    <value type="QString">DM_CONTROL=/var/run/xdmctl</value>
+    <value type="QString">GS_LIB=/home/roman/.fonts</value>
+    <value type="QString">GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/roman/.gtkrc-2.0:/home/roman/.gtkrc-2.0-kde4:/home/roman/.kde/share/config/gtkrc-2.0</value>
+    <value type="QString">GTK_RC_FILES=/etc/gtk/gtkrc:/home/roman/.gtkrc::/home/roman/.kde/share/config/gtkrc</value>
+    <value type="QString">HOME=/home/roman</value>
+    <value type="QString">KDE_FULL_SESSION=true</value>
+    <value type="QString">KDE_MULTIHEAD=false</value>
+    <value type="QString">KDE_SESSION_UID=1000</value>
+    <value type="QString">KDE_SESSION_VERSION=4</value>
+    <value type="QString">LANG=ru_RU.UTF-8</value>
+    <value type="QString">LANGUAGE=</value>
+    <value type="QString">LD_LIBRARY_PATH=/home/roman/programms/qtcreator-1.3.0/lib/qtcreator:</value>
+    <value type="QString">LOGNAME=roman</value>
+    <value type="QString">PATH=/usr/bin:/home/roman/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games</value>
+    <value type="QString">PWD=/home/roman</value>
+    <value type="QString">QTDIR=/usr/share/qt4</value>
+    <value type="QString">QT_PLUGIN_PATH=/home/roman/.kde/lib/kde4/plugins/:/usr/lib/kde4/plugins/</value>
+    <value type="QString">SESSION_MANAGER=local/roman-desk:@/tmp/.ICE-unix/1423,unix/roman-desk:/tmp/.ICE-unix/1423</value>
+    <value type="QString">SHELL=/bin/bash</value>
+    <value type="QString">SHLVL=0</value>
+    <value type="QString">SSH_AGENT_PID=1331</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/ssh-nGaluy1291/agent.1291</value>
+    <value type="QString">USER=roman</value>
+    <value type="QString">WINDOWPATH=7</value>
+    <value type="QString">XCURSOR_THEME=oxy-white</value>
+    <value type="QString">XDG_DATA_DIRS=/usr/share:/usr/share:/usr/local/share</value>
+    <value type="QString">XDG_SESSION_COOKIE=27b5b4a875b20511299446194ae9fda8-1259999644.758837-666771780</value>
+    <value type="QString">XDM_MANAGED=method=classic,auto</value>
    </valuelist>
-   <valuelist key="abstractProcess.arguments" type="QVariantList" >
-    <value type="QString" >-w</value>
+   <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">-w</value>
    </valuelist>
-   <value key="abstractProcess.command" type="QString" >/usr/bin/make</value>
-   <value key="abstractProcess.enabled" type="bool" >true</value>
-   <value key="abstractProcess.workingDirectory" type="QString" >/home/roman/Projects/quteNote/quteNote</value>
+   <value key="abstractProcess.command" type="QString">/usr/bin/make</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/home/roman/Projects/quteNote/quteNote</value>
   </valuemap>
  </data>
  <data>
   <variable>buildconfiguration-Debug-cleanstep0</variable>
-  <valuemap type="QVariantMap" >
-   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
+   <value key="cleanConfig" type="bool">true</value>
+   <valuelist key="makeargs" type="QVariantList">
+    <value type="QString">clean</value>
+   </valuelist>
   </valuemap>
  </data>
  <data>
   <variable>buildconfiguration-Release-buildstep0</variable>
-  <valuemap type="QVariantMap" >
-   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
-   <value key="buildConfiguration" type="int" >0</value>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Release</value>
+   <value key="buildConfiguration" type=""></value>
   </valuemap>
  </data>
  <data>
   <variable>buildconfiguration-Release-buildstep1</variable>
-  <valuemap type="QVariantMap" >
-   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Release</value>
   </valuemap>
  </data>
  <data>
   <variable>buildconfiguration-Release-cleanstep0</variable>
-  <valuemap type="QVariantMap" >
-   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Release</value>
   </valuemap>
  </data>
  <data>
   <variable>buildconfigurations</variable>
-  <valuelist type="QVariantList" >
-   <value type="QString" >Debug</value>
-   <value type="QString" >Release</value>
+  <valuelist type="QVariantList">
+   <value type="QString">Debug</value>
+   <value type="QString">Release</value>
   </valuelist>
  </data>
  <data>
   <variable>buildstep0</variable>
-  <valuemap type="QVariantMap" >
-   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" ></value>
-   <value key="mkspec" type="QString" ></value>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString"></value>
+   <value key="mkspec" type="QString"></value>
   </valuemap>
  </data>
  <data>
   <variable>buildstep1</variable>
-  <valuemap type="QVariantMap" >
-   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" ></value>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString"></value>
   </valuemap>
  </data>
  <data>
   <variable>buildsteps</variable>
-  <valuelist type="QVariantList" >
-   <value type="QString" >trolltech.qt4projectmanager.qmake</value>
-   <value type="QString" >trolltech.qt4projectmanager.make</value>
+  <valuelist type="QVariantList">
+   <value type="QString">trolltech.qt4projectmanager.qmake</value>
+   <value type="QString">trolltech.qt4projectmanager.make</value>
   </valuelist>
  </data>
  <data>
   <variable>cleanstep0</variable>
-  <valuemap type="QVariantMap" >
-   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" ></value>
-   <value key="clean" type="bool" >true</value>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString"></value>
+   <value key="clean" type="bool">true</value>
   </valuemap>
  </data>
  <data>
   <variable>cleansteps</variable>
-  <valuelist type="QVariantList" >
-   <value type="QString" >trolltech.qt4projectmanager.make</value>
+  <valuelist type="QVariantList">
+   <value type="QString">trolltech.qt4projectmanager.make</value>
   </valuelist>
  </data>
  <data>
   <variable>defaultFileEncoding</variable>
-  <value type="QByteArray" >UTF-8</value>
+  <value type="QByteArray">UTF-8</value>
  </data>
  <data>
   <variable>project</variable>
-  <valuemap type="QVariantMap" />
+  <valuemap type="QVariantMap"/>
  </data>
 </qtcreator>

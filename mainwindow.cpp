@@ -1,11 +1,17 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
+#include <QListWidgetItem>
+
+#include <QSet>
+#include <QString>
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
 
+    this->initGlobaShortcut();
     trayIcon = new QSystemTrayIcon(this);
 
     createActions();
@@ -14,23 +20,58 @@ MainWindow::MainWindow(QWidget *parent)
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
             this, SLOT(iconActivated(QSystemTrayIcon::ActivationReason)));
 
-    QIcon icon = QIcon(":/images/icon.svg");
 
-    (void) new QShortcut(Qt::ALT + Qt::Key_S, this, SLOT(showHide()));
+
+    QIcon icon = QIcon(":/images/icon.svg");
 
     trayIcon->setIcon(icon);
     trayIcon->show();
 
     this->setWindowIcon(icon);
     setWindowTitle(trUtf8("quteNote"));
+
+    this->setTreeNode();
+
+    QSet<QString> set;
+}
+
+void MainWindow::setTreeNode()
+{
+    if(this->ui->notesTreeView->children().count() == 0)
+    {
+
+        //new QListWidgetItem(tr("New"),this->ui->notesTreeView);
+    }
+    //this->ui->notesTreeView->
+}
+
+void MainWindow::initGlobaShortcut()
+{
+    _shortcutDef = QString("Alt+S");
+    _hotkeyHandle.setShortcut( QKeySequence(_shortcutDef) );
+    _hotkeyHandle.setEnabled(true);
+    connect( &_hotkeyHandle, SIGNAL(activated()), this, SLOT(showHide()) );
+}
+
+void MainWindow::uninitGlobalShortcut()
+{
+
 }
 
 void MainWindow::showHide()
 {
-    if( this->isVisible() )
+    if( this->isVisible() && !this->isActiveWindow() )
+    {
+        this->activateWindow();
+    }
+    else if( this->isVisible() )
+    {
         this->hide();
-     else
+    }
+    else
+    {
         this->show();
+    }
 }
 
 void MainWindow::iconActivated(QSystemTrayIcon::ActivationReason reason)
@@ -76,6 +117,8 @@ void MainWindow::createTrayIcon()
 
 MainWindow::~MainWindow()
 {
+    this->uninitGlobalShortcut();
+
     delete this->trayIcon;
     delete this->ui;
 

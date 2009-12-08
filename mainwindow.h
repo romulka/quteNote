@@ -1,13 +1,12 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include "qutenote.h"
 #include <QtGui/QMainWindow>
 #include <QSystemTrayIcon>
 #include <QList>
-#include <QShortcut>
-#include "qutenote.h"
 #include <QMenu>
-#include <QMessageBox>
+#include <QxtGlobalShortcut>
 
 namespace Ui
 {
@@ -29,6 +28,10 @@ private slots:
 private:
     void createActions();
     void createTrayIcon();
+    void initGlobaShortcut();
+    void uninitGlobalShortcut();
+
+    void setTreeNode();
 
     Ui::MainWindow *ui;
     QList<QuteNote*> notes;
@@ -40,6 +43,11 @@ private:
     QAction *maximizeAction;
     QAction *restoreAction;
     QAction *quitAction;
+
+    QString _shortcutDef;
+    QxtGlobalShortcut _hotkeyHandle;
+
+    int _KeyCode;
 };
 
 #endif // MAINWINDOW_H

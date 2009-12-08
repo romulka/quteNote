@@ -11,3 +11,6 @@ HEADERS += mainwindow.h \
 FORMS += mainwindow.ui
 QT += xml
 RESOURCES += qutenote.qrc
+
+CONFIG += qxt
+QXT += core gui
